@@ -4,7 +4,7 @@ This file contains the implementation of the PointSet class
 Date: 11/08/2013
 */
 
-#include <base/PointData/pointdata.h>
+#include "OpenRobot/Base/PointData/PointData.h"
 
 template< typename T >
 PointSet<T>::PointSet()

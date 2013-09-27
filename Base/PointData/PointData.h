@@ -9,7 +9,7 @@ Date: 11/08/2013
 #ifndef _POINTDATA_H_
 #define _POINTDATA_H_
 
-#include <OpenRobot/base/base.h>
+#include "OpenRobot/Base/Base.h"
 
 using namespace std;
 
