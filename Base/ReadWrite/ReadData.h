@@ -19,9 +19,10 @@ Read data from a text file
 
 HEADER:
 points <number_of_points>
+data <number_of_columns>
 */
 
 template< typename T>
-void readFromText(PointSet<T>&);
+void readFromText(char *, PointSet<T>&);
 
 #endif
