@@ -4,6 +4,8 @@ project(OpenRobot)
 set(OpenRobot_VERSION_MAJOR 1)
 set(OpenRobot_VERSION_MINOR 0)
 
+set(OpenRobot_ROOT_DIR ${OpenRobot_SOURCE_DIR}/../)
+
 set(CMAKE_CXX_FLAGS "-g -Wall")
 
 set(INSTALL_DIR "/usr")
@@ -12,4 +14,4 @@ set(INSTALL_DIR "/usr")
 #set(INSTALL_DIR "/usr")
 #endif()
 
-add_subdirectory(base)
+add_subdirectory(Base)

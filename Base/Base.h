@@ -12,5 +12,6 @@ Date: 11/08/2013
 #include <stdlib.h>
 #include <iostream>
 #include <math.h>
+#include <stdio.h>
 
 #endif

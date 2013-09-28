@@ -1,10 +1,10 @@
-include_directories(${OpenRobot_SOURCE_DIR})
+include_directories(${OpenRobot_ROOT_DIR})
 
 FILE(GLOB SOURCE_POINTDATA *.cpp *.h)
 
-add_library(OpenRobot SHARED ${SOURCE_POINTDATA})
+add_library(OR_ReadWrite SHARED ${SOURCE_POINTDATA})
 
-INSTALL(TARGETS OpenRobot
+INSTALL(TARGETS OR_ReadWrite
   RUNTIME DESTINATION ${INSTALL_DIR}/bin
   LIBRARY DESTINATION ${INSTALL_DIR}/lib
   ARCHIVE DESTINATION ${INSTALL_DIR}/lib
@@ -13,5 +13,5 @@ INSTALL(TARGETS OpenRobot
 FILE(GLOB POINTDATA_HEADERS *.h)
 
 INSTALL(FILES ${POINTDATA_HEADERS}
-  DESTINATION ${INSTALL_DIR}/include/OpenRobot/base/PointData
+  DESTINATION ${INSTALL_DIR}/include/OpenRobot/Base/ReadWrite
 )
